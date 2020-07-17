@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+#app {
+  --color-none: transparent;
+  // 背景色
+  --color-bg: white;
+  --color-bg-0: #fff;
+  --color-bg-1: #f7f7f7;
+  --color-bg-2: #ededed;
+  --color-bg-3: #4c4c4c;
+  --color-bg-4: rgba(255, 255, 255, 0.1);
+  // 前景色
+  --color-fg: black;
+  --color-fg-0: rgba(0, 0, 0, 0.9);
+  --color-fg-1: rgba(0, 0, 0, 0.6);
+  --color-fg-2: rgba(0, 0, 0, 0.3);
+  --color-fg-3: rgba(0, 0, 0, 0.1);
+  // 常用色
+  --color-red: #F94D50;
+  --color-orange: #F47E3E;
+  --color-yellow: #F9CC62;
+  --color-green: #7EB356;
+  --color-blue-green: #8AD0BB;
+  --color-blue: #10aeff;
+  --color-queen-blue: #577590;
+  --color-indigo: #1485ee;
+  --color-purple: #6467f0;
+  --color-white: #fff;
+  --color-black: #000;
+  // 主题色
+  --color-theme-0-0: #3a8bd2;
+  --color-theme-0-1: #1b85e4;
+}
+
+@media (prefers-color-scheme: dark) {
+  #app {
+    --color-none: transparent;
+    // 背景色
+    --color-bg: black;
+    --color-bg-0: #111111;
+    --color-bg-1: #1e1e1e;
+    --color-bg-2: #191919;
+    --color-bg-3: #404040;
+    --color-bg-4: rgba(0, 0, 0, 0.1);
+    // 前景色
+    --color-fg: white;
+    --color-fg-0: rgba(255, 255, 255, 0.9);
+    --color-fg-1: rgba(255, 255, 255, 0.6);
+    --color-fg-2: rgba(255, 255, 255, 0.3);
+    --color-fg-3: rgba(255, 255, 255, 0.1);
+    // 常用色
+    --color-red: #F94D50;
+    --color-orange: #F47E3E;
+    --color-yellow: #F9CC62;
+    --color-green: #7EB356;
+    --color-blue-green: #8AD0BB;
+    --color-blue: #10aeff;
+    --color-queen-blue: #577590;
+    --color-indigo: #1485ee;
+    --color-purple: #6467f0;
+    --color-white: #fff;
+    --color-black: #000;
+    // 主题色
+    --color-theme-0-0: #0b3566;
+    --color-theme-0-1: #1c4569;
+  }
+}
